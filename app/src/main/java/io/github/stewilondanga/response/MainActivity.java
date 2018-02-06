@@ -16,4 +16,9 @@ public class MainActivity extends AppCompatActivity {
     /**
      * Display methods that allow the text to appear on the screen.
      */
+
+    public void display(String text) {
+        TextView t = (TextView) findViewById(R.id.display_text_view);
+        t.setText(text);
+    }
 }
