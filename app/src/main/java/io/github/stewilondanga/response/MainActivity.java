@@ -30,4 +30,9 @@ public class MainActivity extends AppCompatActivity {
     public void display1(String text) {
         display(text);
     }
+
+    public void display2(String text) {
+        TextView t = (TextView) findViewById(R.id.display_text_view_2);
+        t.setText(text);
+    }
 }
