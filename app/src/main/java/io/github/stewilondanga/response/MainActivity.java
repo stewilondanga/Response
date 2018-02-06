@@ -12,4 +12,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         // PASTE CODE YOU WANT TO TEST HERE
     }
+
+    /**
+     * Display methods that allow the text to appear on the screen.
+     */
 }
